@@ -1,0 +1,28 @@
+.all-text{
+    text-align: center;
+    height: 45px;
+
+}
+.logo img{
+    
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    height: 96%;
+    padding: 0 -5%;
+margin: -7px 6%;
+width: 76;
+width: 84%;
+
+
+}
+.btn{
+ margin: 0 %;
+padding: 0.4%;
+background-color: teal;
+color: aliceblue;
+border: 2px solid darkgray;
+border-radius: 5px;
+cursor: pointer;
+font-family:hover
+}

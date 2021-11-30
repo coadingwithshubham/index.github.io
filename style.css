@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+:root {
+    --main-bg-color: #8c929b;
+  }
+ *{
+     padding: 0%;
+     margin: 0%;
+ }
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0;
+}
+footer{
+    height: 12vh;
+   background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    
+    font-family: 'Lato', sans-serif;
+    height: 55px;
+    
+}
+nav ul {
+    height: 55px;
+    display: flex;
+    
+    }
+nav {
+    text-align: center;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    
+    }
+
+   main{
+    font-family: 'Lato', sans-serif;
+    }
+    nav ol li a {
+        display: flex;
+        text-decoration: none;
+        justify-content: flex-start;
+        font-family: 'Lato', sans-serif;
+        color: rgb(203, 221, 203);
+    
+    }
+    nav ol li a:hover{
+        font-weight: bolder;
+    }
+    
+    nav ol li{
+    list-style: none;
+    padding: 10% 24%;
+        
+    }
+    .all{
+        color: white;
+        background-color: rgb(233, 231, 231);
+    }
+    .logo{
+     display: flex;
+     align-items: center;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        padding: 0 12%;
+        font-family: initial;
+        width: 55%;
+            }
+    .search input{
+        margin: 1% 2%;
+        padding: 0% 12px;
+        height: 29px;
+    }
+ 
+    .slider{
+        margin: 8vh auto;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        padding: 1% 9%;
+    }
+    button{
+    
+        background-color: brown;
+            padding: 15px 25px;
+    }
+ 
